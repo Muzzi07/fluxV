@@ -1,0 +1,35 @@
+{
+  "strategy": "AutoFixed-DualMomentum",
+  "symbols": [
+    "EURUSD",
+    "USDJPY"
+  ],
+  "timeframe": "D1",
+  "period": {
+    "from": "2010-01-01T00:00:00",
+    "to": "2025-07-19T00:00:00"
+  },
+  "config": {
+    "lookback": 20,
+    "volume": 0.1,
+    "tp_pips": 200,
+    "sl_pips": 80,
+    "news_avoid_bars": 6
+  },
+  "results": {
+    "initial_balance": 10000,
+    "trading_balance": 10000.0,
+    "reserve": 59095.5,
+    "final_balance": 69095.5,
+    "total_return_pct": 590.96,
+    "total_pnl": -13152.4,
+    "total_trades": 269,
+    "win_rate": 34.9,
+    "avg_win": 5802.51,
+    "avg_loss": 3191.93,
+    "max_drawdown_pct": 98.11,
+    "sharpe_ratio": 2.92,
+    "profit_factor": 0.98,
+    "max_drawdown_dollar": 65816.5
+  }
+}

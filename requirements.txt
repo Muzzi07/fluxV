@@ -1,0 +1,27 @@
+# ── Core ───────────────────────────────────────────────────────────────────
+# (pandas, numpy needed by backtest engine and data loading)
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ── MetaTrader 5 (Windows only; optional on macOS/Linux) ───────────────────
+# MetaTrader5>=5.0.0
+
+# ── Async web / scraping ──────────────────────────────────────────────────
+aiohttp>=3.9.0
+beautifulsoup4>=4.12.0
+lxml>=5.1.0
+
+# ── Performance / reporting ────────────────────────────────────────────────
+plotly>=5.18.0
+jinja2>=3.1.0
+
+# ── Utilities ──────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+typing-extensions>=4.5.0
+
+# ── Data formats ──────────────────────────────────────────────────────────
+pyarrow>=14.0.0
+
+# ── Optional engines ──────────────────────────────────────────────────────
+# vectorbt>=0.3.0   # vectorized backtesting (uncomment to use VectorBT)
+# backtrader>=1.9   # traditional backtesting (uncomment to use Backtrader)

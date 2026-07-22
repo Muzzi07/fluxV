@@ -1,0 +1,10 @@
+filename,symbol,timeframe,original_rows,cleaned_rows,status,output_path
+EURUSD_D1.csv,EURUSD,D1,5015,5015,success,forexsb_clean/EURUSD
+EURUSD_H1.csv,EURUSD,H1,100000,100000,success,forexsb_clean/EURUSD
+EURUSD_H4.csv,EURUSD,H4,25848,25848,success,forexsb_clean/EURUSD
+USDJPY_H1.csv,USDJPY,H1,100000,100000,success,forexsb_clean/USDJPY
+USDJPY_D1.csv,USDJPY,D1,5017,5017,success,forexsb_clean/USDJPY
+USDJPY_H4.csv,USDJPY,H4,25854,25854,success,forexsb_clean/USDJPY
+AUDNZD_H4.csv,AUDNZD,H4,25852,25852,success,forexsb_clean/AUDNZD
+AUDNZD_H1.csv,AUDNZD,H1,100000,100000,success,forexsb_clean/AUDNZD
+AUDNZD_D1.csv,AUDNZD,D1,5016,5016,success,forexsb_clean/AUDNZD
